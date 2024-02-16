@@ -4,14 +4,7 @@
 #include "MergeSort.h"
 #include <iostream>
 
-//void MergeSort::SortByMerge(int *arr) {
-//
-//    int arr_size = sizeof(arr) / sizeof(arr[0]);
-//    SortByMerge(arr, 0, arr_size);
-//}
-
 void MergeSort::SortByMerge(int *arr, int init, int end) {
-
     if (init >= end){
         return;
     }
@@ -72,6 +65,5 @@ void MergeSort::Merge(int array[], int init, int mid, int end) {
 
     delete[] leftArray;
     delete[] rightArray;
-
 }
 

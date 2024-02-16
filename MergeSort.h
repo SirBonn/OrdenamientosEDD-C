@@ -12,7 +12,6 @@ public:
     void SortByMerge(int arr[]);
     void SortByMerge(int arr[], int init, int end);
     void Merge(int array[], int init, int mid, int end);
-
 };
 
 #endif //ORDENAMIENTOS_MERGESORT_H
