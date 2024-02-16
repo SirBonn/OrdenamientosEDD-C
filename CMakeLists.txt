@@ -3,4 +3,8 @@ project(Ordenamientos)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Ordenamientos main.cpp)
+add_executable(Ordenamientos main.cpp
+        List.h
+        List.cpp
+        MergeSort.h
+        MergeSort.cpp)
